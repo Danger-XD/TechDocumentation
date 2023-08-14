@@ -1,0 +1,43 @@
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+/* NavBar */
+#nheader, header{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Courier New',sans-serif;
+}
+#nheader{
+    padding: 20px;
+    border-bottom: 2px solid black ;
+}
+#navbar{
+    position: fixed;
+    min-width: 350px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 400px;
+    border-right: 3px solid gray;
+}
+.nav-link{
+    font-size: 1.20rem;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding: 15px;
+}
+/* main */
+#main-doc{
+    position: absolute;
+    margin-left: 410px;
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
